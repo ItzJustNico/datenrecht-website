@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/datenrecht-website/static/css/main.914c60a7.css",
+    "main.js": "/datenrecht-website/static/js/main.2ff56b30.js",
+    "index.html": "/datenrecht-website/index.html",
+    "main.914c60a7.css.map": "/datenrecht-website/static/css/main.914c60a7.css.map",
+    "main.2ff56b30.js.map": "/datenrecht-website/static/js/main.2ff56b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.914c60a7.css",
+    "static/js/main.2ff56b30.js"
+  ]
+}
