@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/datenrecht-website/static/css/main.914c60a7.css",
-    "main.js": "/datenrecht-website/static/js/main.e9402c2c.js",
+    "main.css": "/datenrecht-website/static/css/main.587da07f.css",
+    "main.js": "/datenrecht-website/static/js/main.e7c1a3a2.js",
+    "static/media/PlutoFactoryImg.png": "/datenrecht-website/static/media/PlutoFactoryImg.cd116354b869853a9d39.png",
+    "static/media/AustroGamesIcon.png": "/datenrecht-website/static/media/AustroGamesIcon.5593c8769af8bb5bfdfc.png",
     "index.html": "/datenrecht-website/index.html",
-    "main.914c60a7.css.map": "/datenrecht-website/static/css/main.914c60a7.css.map",
-    "main.e9402c2c.js.map": "/datenrecht-website/static/js/main.e9402c2c.js.map"
+    "main.587da07f.css.map": "/datenrecht-website/static/css/main.587da07f.css.map",
+    "main.e7c1a3a2.js.map": "/datenrecht-website/static/js/main.e7c1a3a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.914c60a7.css",
-    "static/js/main.e9402c2c.js"
+    "static/css/main.587da07f.css",
+    "static/js/main.e7c1a3a2.js"
   ]
 }
