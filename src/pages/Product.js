@@ -5,28 +5,44 @@ export default function Product() {
 
   function onBuy(e) {
     e.preventDefault();
-    alert("Mock purchase: no payment processed. (This is intentional for the assignment.)");
+    alert("Payment processed.");
   }
 
   return (
     <section className="stack">
-      <h1>Product</h1>
+      <h1>Games</h1>
 
       <div className="grid">
-        <div className="card">
-          <h2>Software Name</h2>
-          <p>Short product pitch + main benefits.</p>
+        <div className="card" style={{ position: "relative", overflow: "hidden"}}>
+        <div
+                aria-hidden="true"
+                style={{
+                  position: "absolute",
+                  top: 12,
+                  right: -42,
+                  transform: "rotate(35deg)",
+                  border: "1px solid var(--border)",
+                  padding: "0.35rem 3rem",
+                  background: "rgba(255, 213, 74, 0.18)",
+                  fontWeight: 800,
+                }}
+              >
+                AUSTRO
+              </div>
+          <h2>Pluto Factory</h2>
+          <p className="muted">by AustroGames</p>
+          <p>A First Person Factory game to enjoy. Built for players who enjoy building, optimization, and automation.</p>
           <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
+            <li>Farm Materials</li>
+            <li>Build a Factory on Pluto</li>
+            <li>Conquer the Planet</li>
           </ul>
-          <p className="price">€9.99 / month (mock)</p>
+          <p className="price">€29.99</p>
         </div>
 
         <div className="card">
-          <h2>Mock checkout</h2>
-          <form onSubmit={onBuy} className="stack" aria-label="Mock checkout form">
+          <h2>Get it now!</h2>
+          <form onSubmit={onBuy} className="stack" aria-label="Checkout form">
             <div className="field">
               <label htmlFor="email">Email address</label>
               <input
@@ -39,11 +55,11 @@ export default function Product() {
                 onChange={(e) => setEmail(e.target.value)}
               />
               <p className="hint" id="email-hint">
-                We use this to send a license key (mock).
+                We use this to send a license key.
               </p>
             </div>
 
-            <button className="button" type="submit">Buy now (mock)</button>
+            <button className="button" type="submit">Buy now</button>
             <p className="muted">
               By purchasing you accept the license terms (see “License”).
             </p>

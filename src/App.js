@@ -8,7 +8,6 @@ import About from "./pages/About";
 import License from "./pages/License";
 import Privacy from "./pages/Privacy";
 import Imprint from "./pages/Imprint";
-import Accessibility from "./pages/Accessibility";
 import Contact from "./pages/Contact";
 import MediaCredits from "./pages/MediaCredits";
 
@@ -22,7 +21,6 @@ export default function App() {
         <Route path="/license" element={<License />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/imprint" element={<Imprint />} />
-        <Route path="/accessibility" element={<Accessibility />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/credits" element={<MediaCredits />} />
         <Route path="*" element={<Navigate to="/" replace />} />

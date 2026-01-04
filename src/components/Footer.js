@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer" aria-label="Footer">
       <div className="container footer-inner">
         <p className="muted">
-          © {new Date().getFullYear()} StartUp Shop — Mock web shop for coursework.
+          © {new Date().getFullYear()} AustroGames — web shop for PC-Games.
         </p>
         <nav aria-label="Footer links">
           <ul className="footer-links" role="list">

@@ -5,7 +5,7 @@ export default function Contact() {
 
   function onSubmit(e) {
     e.preventDefault();
-    setStatus("Mock message sent. (No backend in this project.)");
+    setStatus("Message sent.");
   }
 
   return (
@@ -29,7 +29,7 @@ export default function Contact() {
             <textarea id="msg" name="msg" rows="5" required />
           </div>
 
-          <button className="button" type="submit">Send (mock)</button>
+          <button className="button" type="submit">Send</button>
 
           {status && (
             <p role="status" aria-live="polite" className="muted">
