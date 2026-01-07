@@ -10,6 +10,7 @@ import Privacy from "./pages/Privacy";
 import Imprint from "./pages/Imprint";
 import Contact from "./pages/Contact";
 import MediaCredits from "./pages/MediaCredits";
+import Accessibility from "./pages/Accessibility";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/accessibility" element={<Accessibility />} />
         <Route path="/credits" element={<MediaCredits />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>

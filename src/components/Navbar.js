@@ -10,6 +10,7 @@ const navItems = [
     { to: "/privacy", label: "Privacy" },
     { to: "/imprint", label: "Imprint" },
     { to: "/contact", label: "Contact" },
+    { to: "/accessibility", label: "Accessibility" },
     { to: "/credits", label: "Media credits" },
 ];
 

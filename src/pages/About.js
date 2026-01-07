@@ -101,11 +101,7 @@ export default function About() {
                 <p>
                     We performed a best-effort search in EUIPO/TMview to reduce the risk of conflicts with existing marks.
                     We checked the terms "AustroGames" and “Pluto Factory” and looked for similar names in relevant classes
-                    (especially Class 9). We also avoid using logos, icons, or visual styles that are strongly associated
-                    with other game publishers.
-                </p>
-                <p className="muted">
-                    (For your submission: add 1–2 sentences about what you searched and what you concluded.)
+                    (especially Class 9).
                 </p>
             </div>
         </section>
